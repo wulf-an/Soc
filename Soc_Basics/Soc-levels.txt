@@ -1,0 +1,93 @@
+soc level roles:
+
+🔐 SOC Levels Explained
+
+Tier 1: SOC Analyst (L1) – Alert Monitoring & Triage
+
+Responsibilities:
+
+Monitor SIEM dashboards and alerts.
+
+Perform initial triage of alerts.
+
+Identify false positives.
+
+Escalate real threats to Tier 2.
+
+
+Skills:
+
+Basic understanding of networking and security.
+
+Familiar with SIEM tools (e.g., Splunk, QRadar).
+
+Strong attention to detail.
+
+
+
+Tier 2: Incident Responder (L2) – Deep Investigation & Response
+
+Responsibilities:
+
+Analyze escalated alerts.
+
+Perform forensic analysis of logs, endpoints, network traffic.
+
+Confirm security incidents.
+
+Coordinate with IT to contain and mitigate threats.
+
+
+Skills:
+
+Strong knowledge of malware, exploits, lateral movement.
+
+Scripting/automation (Python, PowerShell).
+
+Use of tools like Wireshark, VirusTotal, etc.
+
+
+
+Tier 3: Threat Hunter / SME (L3) – Advanced Analysis & Threat Hunting
+
+Responsibilities:
+
+Proactively hunt for undetected threats.
+
+Develop detection rules.
+
+Reverse engineer malware.
+
+Provide expert guidance to Tier 1 & 2.
+
+
+Skills:
+
+Deep understanding of APTs, TTPs (MITRE ATT&CK).
+
+Threat intelligence integration.
+
+Advanced forensics and malware analysis.
+
+
+
+Tier 4: SOC Manager / Lead
+
+Responsibilities:
+
+Manage SOC operations and team.
+
+Ensure proper documentation and process compliance.
+
+Coordinate with other departments and leadership.
+
+Reporting, resource planning, performance evaluation.
+
+
+Skills:
+
+Leadership and project management.
+
+Cybersecurity certifications (e.g., CISSP, CISM).
+
+Good understanding of compliance standards (ISO, NIST, etc.).
