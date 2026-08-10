@@ -1702,3 +1702,52 @@ Continuously monitor:
 
 
 
+# URL
+
+A URL (Uniform Resource Locator) is the address of a resource on the Internet. It tells a web browser where a resource is located and how to access it.
+
+
+http://user:password@tryhackme.com:80/view-room?id=1#task3
+│      │    │         │             │    │          │    │
+│      │    │         │             │    │          │    └── Fragment
+│      │    │         │             │    │          └────── Query String
+│      │    │         │             │    └───────────────── Path
+│      │    │         │             └────────────────────── Port
+│      │    │         └──────────────────────────────────── Host (Domain)
+│      │    └────────────────────────────────────────────── Password
+│      └─────────────────────────────────────────────────── Username
+└────────────────────────────────────────────────────────── Scheme
+
+
+Yes. Here's every URL part explained in the same short style as your examples:
+
+* **Scheme (Protocol):**
+  Specifies the protocol used to access the resource. Common examples are `http`, `https`, `ftp`, and `file`. It tells the browser how to communicate with the server.
+
+* **Username:**
+  The username used to authenticate with the server. It is optional and is rarely used in modern websites because it is considered insecure.
+
+* **Password:**
+  The password used along with the username for authentication. It is optional and generally discouraged because credentials in URLs can be exposed.
+
+* **Host (Domain or IP Address):**
+  Identifies the server that hosts the requested resource. It can be a domain name (e.g., `example.com`) or an IP address (e.g., `192.168.1.10`).
+
+* **Port:**
+  Specifies which network port on the server to connect to. If omitted, the browser uses the default port for the protocol (80 for HTTP and 443 for HTTPS).
+
+* **Path:**
+  Specifies the exact resource or location on the server being requested, such as a web page, file, or API endpoint. For example, `/blog` or `/images/logo.png`.
+
+* **Query String (Parameters):**
+  Extra bits of information sent to the requested path. For example, `/blog?id=1` tells the server to return the blog article with an ID of `1`.
+
+* **Fragment:**
+  Refers to a specific section within the requested page. It is commonly used on long pages so the browser automatically scrolls to a particular section, such as `#task3`. Unlike query parameters, the fragment is processed by the browser and is not sent to the server.
+
+
+
+
+
+
+
